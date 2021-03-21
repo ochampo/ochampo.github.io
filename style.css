@@ -63,26 +63,27 @@ div.dropdown-menu {
 
 
 div.hero {
-    max-width: 1300px;
+    
     margin: auto;
-    padding-top: 15%;
+    padding-top: 5%;
     padding-bottom: 15%;
 }
 
 h1.heroH1 {
-	text-align:right;
-	font-family: 'Helvetica','Arial', sans-serif;
+    text-align: right;
+    font-family: 'Helvetica','Arial', sans-serif;
     font-weight: 600;
     letter-spacing: 0px;
-	font-size:3em;
+    font-size: 3em;
     color: #333;
-
+    text-align: center;
 }
 
 span.heroH1B {
     color: #5e0911;
     letter-spacing: 2px;
     text-shadow: 0px 1px 1px #7a7a7a;
+    text-align: center;
 }
 
 /** SERVICES **/
@@ -275,7 +276,11 @@ img.teamImg {
     height: 100%;
     padding: 2%;
 }
-
+img.personImg {
+    width: 30%;
+    height: 30%;
+    padding: 2%;
+}
 
 h2.teamH2 {
 	text-align:left;
