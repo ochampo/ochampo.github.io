@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /*** FONTS: Song Myung, Source Sans Pro, Roboto, Playfair Display, Poppins, Open San, Montserrat ***/
 
@@ -44,8 +44,8 @@ div.dropdown-menu {
 /**MAIN**/
 @media only screen and (min-width: 768px) {
     div.main {
-        background: url("img/hero-main.jpg");	
-        background-color:#fff;
+        /*background: url("img/bio/bio-dan.png");*/
+        background-color: #fff;
         background-size: cover;
         background-position: center;
     }
@@ -80,7 +80,7 @@ h1.heroH1 {
 }
 
 span.heroH1B {
-    color: #ffbe00;
+    color: #5e0911;
     letter-spacing: 2px;
     text-shadow: 0px 1px 1px #7a7a7a;
 }
